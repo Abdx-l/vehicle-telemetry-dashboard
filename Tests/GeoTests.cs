@@ -1,0 +1,1 @@
+using Xunit;public class GeoTests{[Fact]public void KnownDistances(){Assert.Equal(0,Geo.Distance(0,0,0,0));Assert.InRange(Geo.Distance(0,0,0,1),111.1,111.3);Assert.Equal(Geo.Distance(43,-79,44,-80),Geo.Distance(44,-80,43,-79),9);}}
